@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Measurement Conversion</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<div id="main-content">

@@ -1,0 +1,117 @@
+/*general*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto&display=swap');
+
+html{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+   padding: 0;
+   overflow: hidden;
+}
+
+body{
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	background: #fff;
+	font: 16px "Noto Sans JP", sans-serif;
+}
+
+#main-content{
+   width: 600px;
+   background-color: #eee;
+   margin: 0 auto; 
+   padding: 20px 0;
+   border: 2px solid #25c4b4;
+}
+
+h1{
+	font: 30px Roboto, Sans-Serif;
+   text-align: center;
+}
+
+
+/*menu page*/
+
+#measurement-types{
+   width: 225px;
+   list-style-type: none;
+   margin: 16px auto;
+   padding: 0;
+}
+
+#measurement-types li{
+   display: block;
+	margin: 0 auto 8px auto;
+	padding: 0;
+}
+
+#measurement-types li a{
+   text-decoration: none;
+   text-align: center;
+	color: #000;
+	display: block;
+	background: #fff;
+	padding: 16px 0;
+   width: 223px;
+   height: 30px;
+	border: 1px solid #25c4b4;
+}
+
+#measurement-types li a:hover{
+   color: white;
+   background: #25c4b4;
+}
+
+
+/*Conversion forms*/
+
+form{
+   width: 325px;
+   margin: 0 auto;
+}
+
+form label{
+	display: inline-block;
+	width: 50px;
+}
+
+form input[type="number"]{
+	width: 125px;
+	font-size: 16px;
+	line-height: 16px;
+}
+
+form select{
+   width: 125px;
+	margin: 1em 0;
+	font-size: 14px;
+}
+
+form input[type="submit"]{
+   position: relative;
+   left: 200px;
+	font-size: 16px;
+	text-decoration: none;
+	color: #000;
+	display: block;
+	background: #fff;
+	margin: 20px 0 0 0;
+	padding: 6px 12px;
+	border: 1px solid #000;
+}
+
+form input[type="submit"]:hover{
+	color: #fff;
+	background: #25c4b4;
+}
+
+#return-link{
+   text-align: right;
+   text-decoration: none;
+   margin: 0 20px 0 0;
+}
+#return-link a{
+   text-decoration: none;
+}
